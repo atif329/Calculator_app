@@ -1,7 +1,6 @@
 import 'package:calculator_app/components/my_button.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
-import 'components/my_button.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -35,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             style: const TextStyle(
                                 fontSize: 30, color: Colors.white)),
                       ),
-                      SizedBox(height: 15),
+                      const SizedBox(height: 15),
                       Text(answer.toString(),
                           style: const TextStyle(
                               fontSize: 30, color: Colors.white)),
